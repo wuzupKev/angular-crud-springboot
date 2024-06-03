@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, inject, OnInit } from '@angular/core';
 import { StudentService } from '../api/student.service';
 import { RouterModule } from '@angular/router';
+import { Student } from '../model/student.interface';
 
 @Component({
   selector: 'app-crud',
